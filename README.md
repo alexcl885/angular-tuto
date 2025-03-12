@@ -11,7 +11,24 @@ sudo npm install -g @angular/cli #para instalar ng
 ng new first-ng-app --dry-run   
 ng new first-ng-app --inline-style --inline-template
 ```
+# Borrando lineas angular.json
+He eliminado de aqui:
 
+```json
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "first-ng-app": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "inlineTemplate": true, /*ELIMINADA*/
+          "inlineStyle": true, /*ELIMINADA*/
+          "style": "scss"
+        }
+```
 ## Development server
 
 To start a local development server, run:
