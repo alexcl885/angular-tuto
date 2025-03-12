@@ -1,6 +1,16 @@
-# FirstNgApp
+# First Application ANGULAR - TUTO
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.2.
+
+# Crear proyecto en angular
+Para crear este proyecto lo he realizado con el siguiente comando, aunque 
+previamente tiene que estar instalado **ng**: 
+
+```bash
+sudo npm install -g @angular/cli #para instalar ng
+ng new first-ng-app --dry-run   
+ng new first-ng-app --inline-style --inline-template
+```
 
 ## Development server
 
